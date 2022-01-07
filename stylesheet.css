@@ -1,0 +1,181 @@
+body {
+  font-family: "Trebuchet MS";
+  background-color: #ECE8E1;
+}
+
+li {
+  list-style: none;
+   float: left;
+  
+  padding: 33px 20px;
+
+}
+
+.kop{
+  background-color:#ff7f50; 
+  padding:10px 30px;
+  color:white;
+}
+
+.header {
+  background-color: #ff7f50;
+  color:  #fff;
+  height: 90px;
+}
+.header-logo1{
+  float: left;
+  padding:0,5px;
+  border-style:solid;
+  border-width:5px;
+  border-color:#eccc68;
+  border-radius:8px;
+  margin-left:1px;
+  margin-top:1px;
+}
+.header-logo2{
+	font-size: 45px;
+	float: right;
+	padding:20px 40px;
+}
+
+.header-list li{
+  background-color:#eccc68;
+  float:left;
+  padding:3px;
+  font-size; 80px;
+  margin-top:30px;
+  margin-left:20px;
+  border-style:solid;
+  border-radius:20px;
+  display:flex;
+  position:relative;
+  justify-content:space-around;
+  line-height:20px;
+  border-color:#eccc68;
+  color:#ffffff:
+  
+}
+.header-list li:hover {
+  margin:10px;
+  display: inline-block;
+  background-color:#ff7f50;
+}
+
+.main{
+ background-color:#ECE8E1;
+ padding: 100px 80px;
+}
+
+.copy-container{
+	 background-color:white;
+ height:370px;
+ margin-top:100px;
+}
+.copy-container span{
+  color: red;
+}
+
+.contents{
+ background-color:white;
+ height: 150px;
+ margin-top:100px;
+}
+.contents2{
+ background-color:white;
+ height: 700px;
+ margin-top:100px;
+}
+
+.contents-item {
+  float:left;
+  margin-right:20px;
+  border-radius:8px;
+   -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.contents-item p{
+  display:flex;
+  position:relative;
+  justify-content:space-around;
+
+}
+.contents-item p:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+.contents-item img:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.contents-item img{
+ border-radius:8px;
+ border:1px solid #14236C;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.contents2 h2{
+ color: red;
+}
+
+.contents-item p{
+ font-size: 24px;
+ margin-top:30px;
+ background-color:Red;
+ color:#ffff;
+ border: 2px;
+ border-color:black;
+ border-radius:8px;
+text-align:center;
+}
+
+.INFO {
+ background-color:white;
+ height: 300px;
+}
+.INFO h1{
+font-size:20px;
+color:black;
+}
+.INFO h2{
+font-size:14px;
+color:black;
+}
+.INFO h3{
+font-size:20px;
+color:black;
+}
+.INFO h4{
+font-size:14px;
+color:black;
+}	
+
+.footer {
+  background-color:#ff7f50;
+  color: #fff;
+  height: 120px;
+  padding:10px;
+  margin-top:auto;
+  margin-bottom:auto;
+  float:middle;
+} 
+.footer-logo{
+  font-size:120px;
+  float:left;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.footer-item{
+ text-align:center;
+}
+.footer-list{
+  float:right;
+}
+.footer-list li{
+ font-size:15px;
+ padding-bottom:50px;
+}
